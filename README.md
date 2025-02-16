@@ -1,8 +1,4 @@
-## dataengineering-youtube-analysis-project-prasad
-
-# Data Engineering - YouTube Analysis Project
-
-![AWS Architecture](architecture.jpeg.png)
+# Prasad Data Engineering - YouTube Analysis Project 
 
 A cloud-based data engineering solution to analyze YouTube trending videos data efficiently.
 
@@ -13,13 +9,15 @@ Managing and analyzing large-scale YouTube data (structured/semi-structured) acr
 - **Scalability**: Handling growing data volumes efficiently.
 - **Centralized Storage & Reporting**: Lack of unified data repository and BI insights.
 
+![AWS Architecture](architecture.jpeg.png)
+
 ## Solution
 1. **Data Ingestion**: Collect CSV/JSON data from Kaggle into AWS S3.
 2. **Serverless ETL (AWS Glue/Lambda)**: Clean, transform, and categorize raw data.
 3. **Data Lake (S3)**: Store processed data in partitioned formats (e.g., by region/category).
 4. **Querying (Athena)**: Analyze data directly in S3 using SQL.
 5. **Dashboard (QuickSight)**: Visualize trends, top videos, and category performance.
-6. ![AWS Architecture](Analysis.png)
+![AWS Architecture](Analysis.png)
 
 ## Tech Stack
 - **Data Ingestion**: AWS Lambda (Serverless), S3 Buckets
